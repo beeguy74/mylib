@@ -19,7 +19,7 @@ void	*ft_memmove(void* dest, const void *src, size_t len)
 		return (NULL);
 	while(i--)
 	{
-		tmp[i] = srt[len];
+		tmp[i] = srt[i];
 	}
 	while(len--)
 	{
